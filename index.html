@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ghost Browser | Initialized</title>
+    <style>
+        body { background: #0b0b0b; color: #e0e0e0; font-family: 'Segoe UI', sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+        .logo { width: 150px; filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.5)); }
+        h1 { color: #ff3e3e; letter-spacing: 4px; text-transform: uppercase; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 600px; margin-top: 30px; }
+        .card { background: #1a1a1a; padding: 20px; border-radius: 8px; border: 1px solid #333; transition: 0.3s; }
+        .card:hover { border-color: #ff3e3e; }
+        .card h3 { margin: 0 0 10px 0; color: #ff3e3e; }
+    </style>
+</head>
+<body>
+    <img src="ghost_logo.png" class="logo">
+    <h1>Ghost Browser</h1>
+    <div class="grid">
+        <div class="card">
+            <h3>Stealth Mode</h3>
+            <p>Anti-fingerprinting is active. Your hardware signatures are masked.</p>
+        </div>
+        <div class="card">
+            <h3>Hardened Kernel</h3>
+            <p>High-Entropy ASLR and stack protection are compiled-in.</p>
+        </div>
+        <div class="card">
+            <h3>No Tracking</h3>
+            <p>Mozilla telemetry and data collection have been stripped.</p>
+        </div>
+        <div class="card">
+            <h3>Custom Identity</h3>
+            <p>Fully independent branding. No Firefox traces remain.</p>
+        </div>
+    </div>
+</body>
+</html>
