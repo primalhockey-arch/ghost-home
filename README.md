@@ -1,1 +1,1 @@
-# ghost-home.html
+# ghost-home
